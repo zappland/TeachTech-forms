@@ -27,7 +27,7 @@ source venv/bin/activate
 ```
 - Install packages
 ```
-pip install -R requirements.txt
+pip install -r requirements.txt
 ```
 
 - Create the database
