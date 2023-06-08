@@ -1,0 +1,8 @@
+db.sqlite3
+teachtechforms/__pycache__
+certform/__pycache__
+venv
+.DS_Store
+__pycache__/
+certform/migrations/__pycache__
+certform/migrations/
