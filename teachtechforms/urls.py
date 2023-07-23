@@ -16,8 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from certform import views
+from django.urls import include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("", views.homepage, name="certifications"),
+    path("", views.homepage, name="homepage"),
+    path("create/", views.create, name="create"),
+    path("modify/", include('certform.urls'), name="modify"),
 ]
